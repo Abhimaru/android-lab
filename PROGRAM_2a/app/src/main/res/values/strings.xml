@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">additioncalc</string>
+    <string name="num1_hint">Enter First Number</string>
+    <string name="num2_hint">Enter Second Number</string>
+    <string name="btn_name">ADD</string>
+    <string name="ans_textview"></string>
+</resources>

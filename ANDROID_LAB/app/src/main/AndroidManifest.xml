@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <!-- Permissions for 10b -->
+    <uses-feature
+        android:name="android.hardware.telephony"
+        android:required="false" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        tools:ignore="ScopedStorage" /> <!-- Permission for 17a -->
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" /> <!-- Permission for 20 -->
+    <uses-permission android:name="android.permission.SEND_SMS" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ANDROID_LAB"
+        tools:targetApi="31">
+        <activity
+            android:name=".P21.getUserData_p21"
+            android:exported="false" />
+        <activity
+            android:name=".P21.SharedPref_p21"
+            android:exported="false" />
+        <activity
+            android:name=".P20.SendingSMS_p20"
+            android:exported="false" />
+        <activity
+            android:name=".P19.CallDialer_p19"
+            android:exported="false" />
+        <activity
+            android:name=".P18.AlarmManager_p18"
+            android:exported="false" />
+        <activity
+            android:name=".P17.CustomIntentSecond_p17b"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.example.android_lab.P17.CUSTOM_ACTION" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".P17.CustomIntentMain_p17b"
+            android:exported="false" />
+        <activity
+            android:name=".P17.BroadcastReceiver_p17a"
+            android:exported="false" />
+        <activity
+            android:name=".P16.ImageSlider_p16b"
+            android:exported="false" />
+        <activity
+            android:name=".P16.ImageSwitcher_p16a"
+            android:exported="false" />
+        <activity
+            android:name=".P15.OptionMenu_p15"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.Light.DarkActionBar" />
+        <activity
+            android:name=".P10.ProgressBarActualFile_p10b"
+            android:exported="false" />
+        <activity
+            android:name=".P14.FragmentView_p14"
+            android:exported="false" />
+        <activity
+            android:name=".P13.ScrollViewHorizontal_p13b"
+            android:exported="false" />
+        <activity
+            android:name=".P13.ScrollViewVertical_p13a"
+            android:exported="false" />
+        <activity
+            android:name=".P12.TimePicker_p12b"
+            android:exported="false" />
+        <activity
+            android:name=".P12.DatePicker_p12a"
+            android:exported="false" />
+        <activity
+            android:name=".P11.SeekBar_p11"
+            android:exported="false" />
+        <activity
+            android:name=".P10.ProgressBar_p10a"
+            android:exported="false" />
+        <activity
+            android:name=".P8.AlertBox_p8"
+            android:exported="false" />
+        <activity
+            android:name=".P7.ListViewMultipleSelect_p7"
+            android:exported="false" />
+        <activity
+            android:name=".P6.Spinner_p6"
+            android:exported="false" />
+        <activity
+            android:name=".P4.AutoCompleteText_p4"
+            android:exported="false" />
+        <activity
+            android:name=".P3.ItemTotal_p3"
+            android:exported="false" />
+        <activity
+            android:name=".P2.Calc_p2b"
+            android:exported="false" />
+        <activity
+            android:name=".P2.Addition_p2a"
+            android:exported="false" />
+        <activity
+            android:name=".P1.HelloActivity"
+            android:exported="false"
+            android:label="@string/title_activity_hello"
+            android:theme="@style/Theme.ANDROID_LAB" />
+        <activity
+            android:name=".ListAdapter"
+            android:exported="false" />
+        <activity
+            android:name=".SplashActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+
+        <receiver android:name=".P18.MyBroadCastReceiver_p18" />
+    </application>
+
+</manifest>

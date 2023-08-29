@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="@string/circle_p15"
+        android:id="@+id/circle_p15"/>
+
+    <item android:title="@string/triangle_p15"
+        android:id="@+id/triangle_p15"/>
+
+    <item android:title="@string/square_p15"
+        android:id="@+id/square_p15"/>
+
+    <item android:title="@string/rectangle_p15"
+        android:id="@+id/rectangle_p15"/>
+
+    <item android:title="@string/line_p15"
+        android:id="@+id/line_p15"/>
+</menu>

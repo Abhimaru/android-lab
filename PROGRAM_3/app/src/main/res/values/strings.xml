@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">itemTotal</string>
+    <string name="btn">Get Total</string>
+</resources>

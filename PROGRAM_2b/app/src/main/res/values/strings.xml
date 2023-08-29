@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">SimpleCalc</string>
+    <string name="num1_hint">Enter First Number</string>
+    <string name="num2_hint">Enter Second Number</string>
+    <string name="plus">+</string>
+    <string name="minus">-</string>
+    <string name="multiply">*</string>
+    <string name="divide">/</string>
+    <string name="addition_text">"Addition is: "</string>
+    <string name="subtract_text">"Subtraction is: "</string>
+    <string name="multiplication_text">"Multiplication is: "</string>
+    <string name="division_text">"Division is: "</string>
+</resources>

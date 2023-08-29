@@ -1,0 +1,151 @@
+<resources>
+    <string name="app_name">ANDROID_LAB</string>
+    <string name="nav_title">Program List</string>
+    <string name="title_activity_hello">HelloActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <!-- Strings used for program 2a and 2b-->
+    <string name="title_p2a">Addition Calculator</string>
+    <string name="title_p2b">Simple Calculator</string>
+    <string name="num1_hint_p2">Enter First Number</string>
+    <string name="num2_hint_p2">Enter Second Number</string>
+    <string name="btn_name_p2a">ADD</string>
+    <string name="plus_p2b">+</string>
+    <string name="minus_p2b">-</string>
+    <string name="multiply_p2b">*</string>
+    <string name="divide_p2b">/</string>
+    <string name="addition_text_p2b">"Addition is: "</string>
+    <string name="subtract_text_p2b">"Subtraction is: "</string>
+    <string name="multiplication_text_p2b">"Multiplication is: "</string>
+    <string name="division_text_p2b">"Division is: "</string>
+
+    <!-- Strings used for program 3-->
+    <string name="title_p3">ITEM LIST TOTAL</string>
+    <string name="btn_p3">Get Total</string>
+
+    <!-- Strings used for program 4-->
+    <string name="title_p4">Auto Complete TextView</string>
+    <string name="hint_p4">Enter City name</string>
+
+    <!-- Strings used for program 6-->
+    <string name="title_p6">Spinner View</string>
+
+    <!-- Strings used for program 7-->
+    <string name="title_p7">ListView Multiple Selection</string>
+    <string name="btn_p7">Show Selected Items</string>
+    <string-array name="p7_array_technologies">
+        <item>Android</item>
+        <item>Java</item>
+        <item>Python</item>
+        <item>PHP</item>
+        <item>JavaScript</item>
+        <item>C#</item>
+        <item>C++</item>
+        <item>C</item>
+        <item>Swift</item>
+    </string-array>
+
+    <!-- Strings used for program 8-->
+    <string name="title_p8">Alert Box</string>
+    <string name="btn_p8">Show Alert</string>
+
+    <!-- Strings used for program 10a and p10b-->
+    <string name="title_p10a">Progress Bar</string>
+    <string name="title_p10b">Download File</string>
+    <string name="btn_p10a">Start Progress</string>
+    <string name="btn_p10b">DOWNLOAD</string>
+
+    <!-- Strings used for program 11-->
+    <string name="title_p11">Seek Bar</string>
+    <string name="btn_p11">Get Rating</string>
+
+    <!-- Strings used for program 12a and 12b-->
+    <string name="title_p12a">Date Picker</string>
+    <string name="title_p12b">Time Picker</string>
+    <string name="btn_p12a">Get Current Date</string>
+    <string name="btn_p12b">Get Current Time</string>
+
+    <!-- Strings used for program 13a and 13b-->
+    <string name="title_p13a">Vertical Scrollview</string>
+    <string name="title_p13b">Horizontal Scrollview</string>
+    <string name="btn1_p13">Button 1</string>
+    <string name="btn2_p13">Button 2</string>
+    <string name="btn3_p13">Button 3</string>
+    <string name="btn4_p13">Button 4</string>
+    <string name="btn5_p13">Button 5</string>
+    <string name="btn6_p13">Button 6</string>
+    <string name="btn7_p13">Button 7</string>
+    <string name="btn8_p13">Button 8</string>
+    <string name="btn9_p13">Button 9</string>
+    <string name="btn10_p13">Button 10</string>
+
+    <!-- Strings used for program 14-->
+    <string name="title_p14">Fragment View</string>
+    <string name="f1_text_p14">Fragment 1</string>
+    <string name="f2_text_p14">Fragment 2</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- Strings used for program 15-->
+    <string name="title_p15">Action Menu</string>
+    <string name="circle_p15">Circle</string>
+    <string name="triangle_p15">Triangle</string>
+    <string name="square_p15">Square</string>
+    <string name="rectangle_p15">Rectangle</string>
+    <string name="line_p15">Line</string>
+
+    <!-- String used for program 16a and 16b-->
+    <string name="title_p16a">Image Switcher</string>
+    <string name="title_p16b">Image Slider</string>
+    <string name="btn1_p16a">Previous</string>
+    <string name="btn2_p16a">Next</string>
+
+    <!-- String used for program 17a and 17b-->
+    <string name="title_p17a">Broadcast Receiver</string>
+    <string name="title_p17b">Custom Intent</string>
+    <string name="btn_p17b">Send</string>
+
+    <!-- String used for program 18-->
+    <string name="title_p18">Alarm Manager</string>
+    <string name="btn_p18">Set Alarm</string>
+    <string name="time_hint_p18">Enter Time in Seconds</string>
+
+    <!-- String used for program 19-->
+    <string name="title_p19">Call Dialer</string>
+    <string name="mobile_hint_p19">Enter Mobile Number</string>
+    <string name="btn_p19">Dial Number</string>
+
+    <!-- String used for program 20-->
+    <string name="title_p20">Send SMS</string>
+    <string name="mobile_hint_p20">Enter Mobile Number</string>
+    <string name="msg_hint_p20">Enter Message</string>
+    <string name="btn_p20">Send SMS</string>
+    
+    <!-- String used for program 21-->
+    <string name="title_p21">SHARED PREFERENCES</string>
+    <string name="title2_p21">USER DATA</string>
+    <string-array name="listOptions_p21">
+        <item>English</item>
+        <item>Hindi</item>
+        <item>Gujarati</item>
+        <item>Other</item>
+    </string-array>
+
+    <string-array name="listValues_p21">
+        <item>English Language</item>
+        <item>Hindi Language</item>
+        <item>Gujarati Language</item>
+        <item>Other Language</item>
+    </string-array>
+    
+    <string name="nameHint_p21">Enter Name</string>
+    <string name="idNoHint_p21">Enter Id Number</string>
+    <string name="branchHint_p21">Enter Branch Name</string>
+    <string name="btnSave_p21">Save</string>
+    <string name="btnStore_p21">Store Data</string>
+    <string name="btnDisplay_p21">Display Data</string>
+</resources>
