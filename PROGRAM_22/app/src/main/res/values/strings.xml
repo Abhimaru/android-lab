@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">DB_Demo</string>
+    <!--  activity_main.xml  -->
+    <string name="title_1_p22_23">Add Course</string>
+    <string name="hint_name_p22_23">Enter Course Name</string>
+    <string name="hint_duration_p22_23">Enter Course Duration</string>
+    <string name="hint_tracks_p22_23">Enter Course Tracks</string>
+    <string name="hint_description_p22_23">Enter Course Description</string>
+    <string name="btn_add_p22_23">Add Course</string>
+    <string name="btn_view_p22_23">View Courses</string>
+
+    <!--  activity_display_course.xml  -->
+    <string name="title_2_p22_23">List of Courses</string>
+
+    <!--  activity_detail_course.xml  -->
+    <string name="dummy_c_name_p22_23">Course Name</string>
+    <string name="dummy_c_duration_p22_23">Course Duration</string>
+    <string name="dummy_title_c_description_p22_23">Description</string>
+    <string name="dummy_c_description_p22_23">This course is about basic to advanced topics of React jS. It contains the content which is follows the latest updates.</string>
+    <string name="dummy_title_c_tracks_p22_23">Tracks</string>
+    <string name="dummy_c_tracks_p22_23">1. Install Node Js\n2. Create React App\n3. Understand Folder Structure\n4. Learn about JSX\n5. Basic Javascript Topics\n6. Advanced Topics\n7. React Hooks\n8. Projects </string>
+    <string name="btn_back_p22_23">Back</string>
+    <string name="btn_delete_p22_23">Delete</string>
+
+    <!--  course.xml  -->
+    <string name="dummy_id_p22_23">1</string>
+    <string name="dummy_name_p22_23">React JS BOOTCAMP</string>
+    <string name="dummy_duration_p22_23">2 Months</string>
+</resources>
