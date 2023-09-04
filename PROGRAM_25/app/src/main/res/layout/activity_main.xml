@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center|top"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/darkOrange"
+        android:padding="20dp"
+        android:text="@string/title_p25"
+        android:textColor="@color/white"
+        android:textAlignment="center"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:fontFamily="monospace"
+        android:layout_marginVertical="20dp"/>
+
+    <Button
+        android:id="@+id/btnSave_p25"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/darkOrange"
+        android:paddingHorizontal="40dp"
+        android:layout_marginVertical="10dp"
+        android:paddingVertical="15dp"
+        android:text="@string/btnSave_p25"
+        android:textColor="@color/white" />
+
+    <Spinner
+        android:id="@+id/spinner_p25"
+        android:layout_width="340dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/darkOrange"
+        android:paddingVertical="15dp"
+        android:layout_marginVertical="30dp" />
+
+    <EditText
+        android:id="@+id/etStudentName_p25"
+        android:inputType="none"
+        android:cursorVisible="false"
+        android:hint="@string/hint_StuName_p25"
+        android:layout_width="340dp"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:backgroundTint="@color/darkOrange"
+        android:layout_marginVertical="30dp"
+        android:importantForAutofill="no"/>
+
+    <EditText
+        android:id="@+id/etStudentEmail_p25"
+        android:inputType="none"
+        android:cursorVisible="false"
+        android:hint="@string/hint_StuEmail_p25"
+        android:layout_width="340dp"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:backgroundTint="@color/darkOrange"
+        android:layout_marginVertical="30dp"
+        android:importantForAutofill="no"/>
+
+    <EditText
+        android:id="@+id/etStudentPhone_p25"
+        android:inputType="none"
+        android:cursorVisible="false"
+        android:hint="@string/hint_StuPhone_p25"
+        android:layout_width="340dp"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:backgroundTint="@color/darkOrange"
+        android:layout_marginVertical="30dp"
+        android:importantForAutofill="no"/>
+
+</LinearLayout>

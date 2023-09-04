@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">ReadFile_DB</string>
+    <string name="title_p25">Store File DB</string>
+    <string name="btnSave_p25">Save File to DB</string>
+    <string name="hint_StuName_p25">Student Name</string>
+    <string name="hint_StuPhone_p25">Student Phone</string>
+    <string name="hint_StuEmail_p25">Student Email</string>
+</resources>
