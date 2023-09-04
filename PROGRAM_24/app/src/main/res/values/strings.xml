@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">FileSave</string>
+    <string name="title_p24">Save Text File</string>
+    <string name="hint_fileName_p24">Enter File Name</string>
+    <string name="hint_fileText_p24">Write your text here</string>
+    <string name="btnSave_p24">Save</string>
+    <string name="btnRead_p24">Read</string>
+</resources>

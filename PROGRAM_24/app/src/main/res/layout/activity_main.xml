@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center|top"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/lightBlue"
+        android:padding="20dp"
+        android:text="@string/title_p24"
+        android:textAlignment="center"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:fontFamily="monospace"
+        android:layout_marginVertical="20dp"/>
+
+    <EditText
+        android:id="@+id/etFileName_p24"
+        android:inputType="text"
+        android:layout_width="340dp"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:maxLength="15"
+        android:backgroundTint="@color/lightBlue"
+        android:hint="@string/hint_fileName_p24"
+        android:layout_marginVertical="30dp"
+        android:importantForAutofill="no" />
+
+    <EditText
+        android:id="@+id/etFileText_p24"
+        android:layout_width="340dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/lightBlue"
+        android:hint="@string/hint_fileText_p24"
+        android:importantForAutofill="no"
+        android:inputType="textMultiLine"
+        android:lines="5"
+        android:scrollbars="vertical"
+        android:textSize="20sp"
+        android:layout_marginVertical="30dp" />
+
+    <Spinner
+        android:id="@+id/spinner_p24"
+        android:layout_width="340dp"
+        android:layout_height="wrap_content"
+        android:paddingVertical="15dp"
+        android:layout_marginVertical="30dp" />
+
+    <Button
+        android:id="@+id/btnRead_p24"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/lightBlue"
+        android:paddingHorizontal="40dp"
+        android:layout_marginVertical="10dp"
+        android:paddingVertical="15dp"
+        android:text="@string/btnRead_p24"
+        android:textColor="@color/black" />
+
+    <Button
+        android:id="@+id/btnSave_p24"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/lightBlue"
+        android:paddingHorizontal="40dp"
+        android:paddingVertical="15dp"
+        android:text="@string/btnSave_p24"
+        android:textColor="@color/black"
+      />
+
+</LinearLayout>
