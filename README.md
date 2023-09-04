@@ -55,3 +55,5 @@
 ## LAB-22 & 23 -> Demonstrate use of SQLite Database. Create a database with table Course having 5 fields id, name, duration, tracks, description. Create add button to add new course. create display button to display course. when user click display button then display the record in spinner and when user click any of the spinner item it shoudl display the toast.,
 
 ## LAB-24 -> Demonstrate File Saving in Local Storage. Take File name and File Content from user as input. When user click save button the file should be saved in local storage.
+
+## LAB-25 -> Develop an app that Read File from the local storage and store Student Id, name, email and phone to the Database. Make Spinner and store id in the spinner when user select ID display the corrosponding record in the textview.
