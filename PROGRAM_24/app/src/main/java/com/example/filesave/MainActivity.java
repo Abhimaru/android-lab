@@ -56,7 +56,7 @@ public class MainActivity extends AppCompatActivity{
         try{
             String FolderPath = getExternalFilesDir(null) + "/";
             File folder = new File(FolderPath);
-            if(!folder.exists()) folder.mkdirs();
+            if(!folder.exists()) folder.mkdir();
             File file = new File(folder, fileName);
             if (file.exists()) {
                 // Generate a new unique filename based on the existing name
@@ -83,6 +83,7 @@ public class MainActivity extends AppCompatActivity{
         }
         catch (Exception e){
             e.printStackTrace();
+            Toast.makeText(this, e.toString(), Toast.LENGTH_LONG).show();
             return Boolean.FALSE;
         }
     }

@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">Student Data</string>
+    <string name="menu_add_p26_27">Add Student</string>
+    <string name="menu_view_p26_27">View Student</string>
+    <string name="menu_update_p26_27">Update Student</string>
+    <string name="menu_delete_p26_27">Delete Student</string>
+    <string name="menu_search_p26_27">Search Student</string>
+    <string name="hint_firstName_p26_27">First Name</string>
+    <string name="hint_lastName_p26_27">Last Name</string>
+    <string name="hint_email_p26_27">Email</string>
+    <string name="hint_phone_p26_27">Phone</string>
+    <string name="hint_gender_p26_27">Gender:</string>
+    <string name="hint_gender_male_p26_27">Male</string>
+    <string name="hint_gender_female_p26_27">Female</string>
+    <string name="hint_address_p26_27">Address</string>
+    <string name="hint_city_p26_27">Select City:</string>
+    <string name="hint_pinCode_p26_27">Pin Code</string>
+    <string name="btn_register_p26_27">Register</string>
+    <string name="btn_update_p26_27">Update</string>
+    <string name="btn_previous_p26_27">Previous</string>
+    <string name="btn_next_p26_27">Next</string>
+    <string name="error_txt">* Required</string>
+    <string name="prefix_phone">+91</string>
+
+    <string-array name="city_names">
+        <item>Ahmedabad</item>
+        <item>Amreli</item>
+        <item>Anand</item>
+        <item>Banaskantha</item>
+        <item>Bharuch</item>
+        <item>Bhavnagar</item>
+        <item>Botad</item>
+        <item>Chhota Udaipur</item>
+        <item>Dahod</item>
+        <item>Dang</item>
+        <item>Devbhoomi Dwarka</item>
+        <item>Gandhinagar</item>
+        <item>Gir Somnath</item>
+        <item>Jamnagar</item>
+        <item>Junagadh</item>
+        <item>Kheda</item>
+        <item>Mehsana</item>
+        <item>Morbi</item>
+        <item>Navsari</item>
+        <item>Panchmahal</item>
+        <item>Patan</item>
+        <item>Porbandar</item>
+        <item>Rajkot</item>
+        <item>Sabarkantha</item>
+        <item>Surat</item>
+        <item>Surendranagar</item>
+        <item>Tapi</item>
+        <item>Vadodara</item>
+        <item>Valsad</item>
+    </string-array>
+</resources>

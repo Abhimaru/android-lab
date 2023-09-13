@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="top|center">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/textInput_fName_p26_27"
+            style="@style/TextInputStyle"
+            app:startIconDrawable="@drawable/baseline_create_24"
+            app:counterMaxLength="20">
+
+            <EditText
+                android:id="@+id/etStudentFName_p26_27"
+                style="@style/EditTextStyle"
+                android:inputType="text"
+                android:hint="@string/hint_firstName_p26_27"
+                android:maxLength="20"
+                android:importantForAutofill="no"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/textInput_lName_p26_27"
+            style="@style/TextInputStyle"
+            app:startIconDrawable="@drawable/baseline_create_24"
+            app:counterMaxLength="20">
+
+            <EditText
+                android:id="@+id/etStudentLName_p26_27"
+                style="@style/EditTextStyle"
+                android:inputType="text"
+                android:hint="@string/hint_lastName_p26_27"
+                android:maxLength="20"
+                android:importantForAutofill="no"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/textInput_email_p26_27"
+            style="@style/TextInputStyle"
+            app:startIconDrawable="@drawable/baseline_mail_24"
+            app:counterMaxLength="35"
+            app:prefixTextAppearance="@style/preFixStyle">
+
+            <EditText
+                android:id="@+id/etStudentEmail_p26_27"
+                style="@style/EditTextStyle"
+                android:inputType="textEmailAddress"
+                android:hint="@string/hint_email_p26_27"
+                android:maxLength="35"
+                android:importantForAutofill="no"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/textInput_phone_p26_27"
+            style="@style/TextInputStyle"
+            app:startIconDrawable="@drawable/baseline_phone_24"
+            app:counterMaxLength="10"
+            app:prefixText="@string/prefix_phone"
+            app:prefixTextAppearance="@style/preFixStyle">
+
+            <EditText
+                android:id="@+id/etStudentPhone_p26_27"
+                style="@style/EditTextStyle"
+                android:inputType="number"
+                android:hint="@string/hint_phone_p26_27"
+                android:maxLength="10"
+                android:importantForAutofill="no"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <LinearLayout
+            android:layout_width="340dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="30dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawablePadding="15dp"
+                android:textSize="18sp"
+                android:text="@string/hint_gender_p26_27"
+                android:layout_marginEnd="20dp"
+                app:drawableStartCompat="@drawable/baseline_animation_24" />
+
+            <RadioGroup
+                android:id="@+id/rgGender_p26_27"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <RadioButton
+                    android:id="@+id/rbMale_p26_27"
+                    android:drawableEnd="@drawable/baseline_male_24"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/hint_gender_male_p26_27"
+                    android:checked="true"
+                    android:backgroundTint="@color/lightBlue" />
+
+                <RadioButton
+                    android:id="@+id/rbFemale_p26_27"
+                    android:drawableEnd="@drawable/baseline_female_24"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/hint_gender_female_p26_27"
+                    android:backgroundTint="@color/lightBlue"
+                    android:layout_marginStart="20dp"/>
+            </RadioGroup>
+        </LinearLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/textInput_address_p26_27"
+            style="@style/TextInputStyle"
+            app:startIconDrawable="@drawable/baseline_home_24"
+            app:counterMaxLength="100"
+            app:prefixTextAppearance="@style/preFixStyle">
+
+            <EditText
+                android:id="@+id/etStudentAddress_p26_27"
+                style="@style/EditTextStyle"
+                android:inputType="textMultiLine"
+                android:hint="@string/hint_address_p26_27"
+                android:lines="3"
+                android:scrollbars="vertical"
+                android:maxLength="35"
+                android:importantForAutofill="no"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <LinearLayout
+            android:layout_width="340dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="30dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:drawablePadding="15dp"
+                android:text="@string/hint_city_p26_27"
+                app:drawableStartCompat="@drawable/baseline_location_city_24" />
+
+            <Spinner
+                android:id="@+id/spCity_p26_27"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/lightBlue"
+                android:entries="@array/city_names"
+                android:layout_marginStart="30dp"
+                android:background="@drawable/edit_text"
+                android:padding="10dp" />
+
+        </LinearLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/textInput_pinCode_p26_27"
+            style="@style/TextInputStyle"
+            app:startIconDrawable="@drawable/baseline_mail_24"
+            app:counterMaxLength="6"
+            app:prefixTextAppearance="@style/preFixStyle">
+
+            <EditText
+                android:id="@+id/etStudentPinCode_p26_27"
+                style="@style/EditTextStyle"
+                android:inputType="number"
+                android:hint="@string/hint_pinCode_p26_27"
+                android:maxLength="6"
+                android:importantForAutofill="no"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <RelativeLayout
+            android:layout_width="340dp"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="30dp" >
+
+            <ImageButton
+                android:id="@+id/previous_p26_27"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_marginEnd="73dp"
+                android:layout_toStartOf="@+id/register_p26_27"
+                android:contentDescription="@string/btn_previous_p26_27"
+                android:padding="15dp"
+                android:visibility="gone"
+                android:backgroundTint="@color/lightBlue"
+                android:src="@drawable/baseline_arrow_back_24" />
+
+            <Button
+                android:id="@+id/register_p26_27"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:background="@color/lightBlue"
+                android:text="@string/btn_register_p26_27" />
+
+            <Button
+                android:id="@+id/update_p26_27"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:visibility="gone"
+                android:background="@color/lightBlue"
+                android:text="@string/btn_update_p26_27" />
+
+            <ImageButton
+                android:id="@+id/next_p26_27"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="72dp"
+                android:layout_toEndOf="@+id/register_p26_27"
+                android:contentDescription="@string/btn_next_p26_27"
+                android:padding="15dp"
+                android:visibility="gone"
+                android:backgroundTint="@color/lightBlue"
+                android:src="@drawable/baseline_arrow_forward_24" />
+        </RelativeLayout>
+    </LinearLayout>
+</ScrollView>

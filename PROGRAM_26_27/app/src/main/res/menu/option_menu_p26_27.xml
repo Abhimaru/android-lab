@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/add_student"
+        android:title="@string/menu_add_p26_27"
+        app:showAsAction="always"
+        android:icon="@drawable/baseline_add_24" />
+
+    <item android:id="@+id/view_student"
+        android:title="@string/menu_view_p26_27"
+        app:showAsAction="always"
+        android:icon="@drawable/baseline_remove_red_eye_24" />
+
+    <item android:id="@+id/update_student"
+        android:title="@string/menu_update_p26_27"
+        app:showAsAction="always"
+        android:icon="@drawable/baseline_border_color_24" />
+
+    <item android:id="@+id/delete_student"
+        android:title="@string/menu_delete_p26_27"
+        app:showAsAction="always"
+        android:icon="@drawable/baseline_delete_24" />
+
+    <item android:id="@+id/search_student"
+        android:title="@string/menu_search_p26_27"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/baseline_search_24" />
+</menu>
