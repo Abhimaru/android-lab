@@ -62,4 +62,6 @@
 
 ## LAB-28 -> Demonstrate use of Notification class. Create a notification when user click the button the notification should be displayed.
 
+## LAB-29 -> Demonstrate use of Telephony Manager class. print the phone details like IMEI number, sim card information, etc.
+
 ## LAB-30 -> Demonstrate use of mail sender. When user click send button the mail should be send.
