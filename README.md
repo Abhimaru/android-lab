@@ -57,3 +57,9 @@
 ## LAB-24 -> Demonstrate File Saving in Local Storage. Take File name and File Content from user as input. When user click save button the file should be saved in local storage.
 
 ## LAB-25 -> Develop an app that Read File from the local storage and store Student Id, name, email and phone to the Database. Make Spinner and store id in the spinner when user select ID display the corrosponding record in the textview.
+
+## LAB-26 & 27 -> Create a registration form in android includes firstname, lastname, emailid, contactNo, Address and pincode. Validate all the fields, perform addm update delete operations, also create next and previous buttons to navigate between the records. implemenet search functinality to search the record and implement action menu in which add, update, delete and search options are available.
+
+## LAB-28 -> Demonstrate use of Notification class. Create a notification when user click the button the notification should be displayed.
+
+## LAB-30 -> Demonstrate use of mail sender. When user click send button the mail should be send.
