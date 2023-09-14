@@ -65,3 +65,5 @@
 ## LAB-29 -> Demonstrate use of Telephony Manager class. print the phone details like IMEI number, sim card information, etc.
 
 ## LAB-30 -> Demonstrate use of mail sender. When user click send button the mail should be send.
+
+## LAB-31" -> Demonstare use of Bluetooth Adapter class. Create Four button one for enable bluetooth, one for disable bluetooth, one for make device discoverable and one for display paired devices.
