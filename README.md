@@ -66,4 +66,12 @@
 
 ## LAB-30 -> Demonstrate use of mail sender. When user click send button the mail should be send.
 
-## LAB-31" -> Demonstare use of Bluetooth Adapter class. Create Four button one for enable bluetooth, one for disable bluetooth, one for make device discoverable and one for display paired devices.
+## LAB-31 -> Demonstrate use of Bluetooth Adapter class. Create Four button one for enable bluetooth, one for disable bluetooth, one for make device discoverable and one for display paired devices.
+
+## LAB-32 -> Demonstrate use of WifiManager class. Create two buttons one for enable/diable wifi and another for display nearby devices.
+
+## LAB-33 -> Demonstrate use of Camera class. When user click the button the camera should be open.
+
+## LAB-34 -> Demonstrate use of Video class. When user click the button the Video open camera and shoot videoa and save into device.
+
+## LAB-35 -> Develop an app in that when mobile is till display the simple hello world text. but when user shake device change the text color and background color.
