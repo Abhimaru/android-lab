@@ -17,4 +17,10 @@
         android:textColor="@color/black"
         android:layout_marginTop="40dp"/>
 
+    <VideoView
+        android:id="@+id/videoView_p34"
+        android:layout_width="340dp"
+        android:layout_height="340dp"
+        android:layout_marginTop="40dp"
+        android:visibility="gone"/>
 </LinearLayout>
