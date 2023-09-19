@@ -18,7 +18,19 @@
 
     <ImageView
         android:id="@+id/capturedImage_p33"
+        android:layout_width="340dp"
+        android:layout_height="340dp"
+        android:layout_marginTop="30dp"
+        android:scaleType="fitCenter"
+        android:visibility="gone"/>
+
+    <Button
+        android:id="@+id/btnSave_p33"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:scaleType="fitCenter" />
+        android:text="Save to Device"
+        android:paddingVertical="15dp"
+        android:textColor="@color/black"
+        android:layout_marginTop="40dp"
+        android:visibility="gone"/>
 </LinearLayout>
