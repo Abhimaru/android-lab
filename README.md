@@ -75,3 +75,7 @@
 ## LAB-34 -> Demonstrate use of Video class. When user click the button the Video open camera and shoot videoa and save into device.
 
 ## LAB-35 -> Develop an app in that when mobile is till display the simple hello world text. but when user shake device change the text color and background color.
+
+## LAB-36 -> Demonstrate Get and Post method in android with Php MySQL.
+
+## LAB-37 -> Demonstarte GPS, When user click get Location button then display Latitude and Longitude of the current location of user.
