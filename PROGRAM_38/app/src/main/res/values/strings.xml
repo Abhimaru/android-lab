@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">bvmGooleMapsAPI</string>
+    <string name="title_bvm_location">BVM Location</string>
+    <string name="title_current_location">Current Location</string>
+</resources>
