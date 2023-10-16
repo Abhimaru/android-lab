@@ -79,3 +79,7 @@
 ## LAB-36 -> Demonstrate Get and Post method in android with Php MySQL.
 
 ## LAB-37 -> Demonstarte GPS, When user click get Location button then display Latitude and Longitude of the current location of user.
+
+## LAB-38 -> Demonstrate Google Map API. Make an app to set the marker on the BVM.
+
+## LAB-39 -> Demonstrate Google Map API. Make an app to set the marker on the Current Location.
